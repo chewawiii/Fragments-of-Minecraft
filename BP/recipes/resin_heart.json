@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fom:resin_heart"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " R ",
+      "RHR",
+      " R "
+    ],
+    "key": {
+      "H": {
+        "item": "minecraft:creaking_heart",
+        "data": 0
+      },
+      "R": {
+        "item": "minecraft:resin_clump",
+        "data": 0
+      } 
+    },
+    "result": {
+      "item": "fom:resin_heart",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "format_version": 2,
+    "metadata": {},
+    "header": {
+        "name": "Fragments of Minecraft RP",
+        "description": "Fragments of Minecraft expands the vanilla world with new biomes, blocks, vegetation, creatures, and secrets to discover, while maintaining the classic Minecraft experience.
+Explore forgotten fragments of the world and experience a more immersive, mysterious, and detailed adventure.",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "uuid": "2d627327-8cd6-4005-ac4d-712a927cefc1",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "resource",
+            "type": "resources",
+            "uuid": "76dc557d-cd76-4e71-9f01-a74f2d498511",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "79d86b00-1c7b-47d3-b460-c4bb6d3a44bd",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "subpacks": []
+}

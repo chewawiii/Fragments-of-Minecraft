@@ -1,0 +1,18 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:multiface_feature": {
+        "description": {
+            "identifier": "fom:pale_pumpkin_feature"
+        },
+
+        "places_block": "fom:pale_pumpkin",
+
+        "search_range": 1,
+        "chance_of_spreading": 0,
+
+        "can_place_on_ceiling": false,
+        "can_place_on_floor": true,
+        "can_place_on_wall": false,
+        "can_place_on": ["minecraft:grass", "minecraft:dirt", "minecraft:pale_moss_block"]
+    }
+}

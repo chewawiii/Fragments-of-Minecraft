@@ -1,0 +1,205 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fom:soul_pale_pumpkin",
+			"menu_category": {
+				"category": "nature"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					],
+					"y_rotation_offset": 180
+				}
+			}
+		},
+		"components": {
+			"tag:wood": {},
+            "tag:minecraft:is_axe_item_destructible": {},
+			"tag:pumpkin": {},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 10
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 5
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+  		"minecraft:light_emission": 15,
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"up": {
+					"texture": "pale_pumpkin_top",
+					"render_method": "blend",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				},
+				"down": {
+					"texture": "pale_pumpkin_top",
+					"render_method": "blend",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				},
+				"south": {
+					"texture": "pale_pumpkin",
+					"render_method": "blend",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				},
+				"east": {
+					"texture": "pale_pumpkin",
+					"render_method": "blend",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				},
+				"north": {
+					"texture": "soul_pale_pumpkin",
+					"render_method": "blend",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				},
+				"west": {
+					"texture": "pale_pumpkin",
+					"render_method": "blend",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "pale_pumpkin_top",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"down": {
+							"texture": "pale_pumpkin_top",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"south": {
+							"texture": "pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"east": {
+							"texture": "soul_pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"north": {
+							"texture": "pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"west": {
+							"texture": "pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "pale_pumpkin_top",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"down": {
+							"texture": "pale_pumpkin_top",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"south": {
+							"texture": "pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"east": {
+							"texture": "pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"north": {
+							"texture": "pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"west": {
+							"texture": "soul_pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:material_instances": {
+						"up": {
+							"texture": "pale_pumpkin_top",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"down": {
+							"texture": "pale_pumpkin_top",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"south": {
+							"texture": "soul_pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"east": {
+							"texture": "pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"north": {
+							"texture": "pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						},
+						"west": {
+							"texture": "pale_pumpkin",
+							"render_method": "blend",
+					  "face_dimming": false,
+					  "ambient_occlusion": false
+						}
+					}
+				}
+			}
+		]
+	}
+}

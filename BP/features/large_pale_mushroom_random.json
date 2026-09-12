@@ -1,0 +1,22 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "fom:large_pale_mushroom_random"
+		},
+		"features": [
+			[
+				"fom:large_pale_mushroom_1",
+				1
+			],
+			[
+				"fom:large_pale_mushroom_2",
+				1
+			],
+			[
+				"fom:large_pale_mushroom_3",
+				1
+			]
+		]
+	}
+}

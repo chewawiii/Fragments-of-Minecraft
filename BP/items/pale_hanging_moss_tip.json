@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fom:pale_hanging_moss_tip",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.plant"
+			}
+		},
+		"components": {
+			"minecraft:icon": "pale_hanging_moss_tip_wakeup",
+			"minecraft:block_placer": {
+				"block": "fom:pale_hanging_moss_tip"
+			},
+			"minecraft:compostable": {
+				"composting_chance": 5
+			}
+		}
+	}
+}

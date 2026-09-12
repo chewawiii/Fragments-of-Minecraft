@@ -1,0 +1,133 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.plant_tall",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [
+					0,
+					1.25,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "cube",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-10.2,
+								0,
+								0
+							],
+							"size": [
+								20.4,
+								30,
+								0
+							],
+							"pivot": [
+								0,
+								8,
+								0
+							],
+							"rotation": [
+								0,
+								-45,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										8,
+										16
+									],
+									"material_instance": "cross"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										8,
+										16
+									],
+									"material_instance": "cross"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "cube2",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-10.2,
+								0,
+								0
+							],
+							"size": [
+								20.4,
+								30,
+								0
+							],
+							"pivot": [
+								0,
+								8,
+								0
+							],
+							"rotation": [
+								0,
+								45,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										8,
+										16
+									],
+									"material_instance": "cross"
+								},
+								"south": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										8,
+										16
+									],
+									"material_instance": "cross"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

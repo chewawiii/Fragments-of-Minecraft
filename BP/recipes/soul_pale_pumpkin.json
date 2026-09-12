@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fom:soul_pale_pumpkin"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "P",
+      "T"
+    ],
+    "key": {
+      "P": {
+        "item": "fom:carved_pale_pumpkin",
+        "data": 0
+      },
+      "T": {
+        "item": "minecraft:soul_torch",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "fom:soul_pale_pumpkin",
+      "count": 1
+    }
+  }
+}

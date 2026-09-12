@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fom:pale_mushroom_item",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.mushroom"
+			}
+		},
+		"components": {
+			"minecraft:icon": "pale_mushroom_item",
+			"minecraft:block_placer": {
+				"block": "fom:pale_mushroom"
+			},
+			"minecraft:compostable": {
+				"composting_chance": 10
+			}
+		}
+	}
+}
