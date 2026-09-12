@@ -33,7 +33,11 @@
       "textures": "textures/items/pale_apple"
     },
     "pale_hanging_moss_tip_wakeup": {
+<<<<<<< HEAD
       "textures": "textures/items/pale_hanging_moss_tip"
+=======
+      "textures": "textures/items/pale_hanging_moss_tip_wakeup"
+>>>>>>> 5b998de1de25fb3f283c650639c672d0b80026c8
     }
   }
 }
