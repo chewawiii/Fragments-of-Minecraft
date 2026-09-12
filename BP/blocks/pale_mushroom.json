@@ -1,0 +1,53 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fom:pale_mushroom"
+		},
+		"components": {
+    "minecraft:custom_components": [
+      "fom:grow_pale_mushroom"
+    ],
+    "minecraft:loot": "loot_tables/blocks/pale_mushroom.json",
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pale_mushroom",
+					"render_method": "alpha_test_single_sided",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							{
+								"tags": "query.any_tag('dirt')"
+							},
+							"minecraft:grass",
+							"minecraft:dirt",
+							"minecraft:moss_block",
+							"minecraft:mycelium",
+							"minecraft:coarse_dirt",
+							"minecraft:dirt_with_roots",
+							"minecraft:muddy_mangrove_roots",
+							"minecraft:farmland",
+							"minecraft:pale_moss_block"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:movable": {
+        "movement_type": "popped"
+      },
+			"minecraft:replaceable": {},
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": { "origin": [-4, 0, -4], "size": [8, 8, 8] },
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.1 }
+		}
+	}
+}

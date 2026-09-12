@@ -1,0 +1,29 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "fom:large_pale_mushroom_rule",
+			"places_feature": "fom:large_pale_mushroom_random"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "pale_garden"
+       }
+      ]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": "math.random(4, 14)",
+			"x": 0,
+			"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+			"z": 0
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "fom:scatter_eyeblossom_bush_feature"
+		},
+		"iterations": 54,
+		"y": {
+			"distribution": "gaussian",
+			"extent": [
+				-4,
+				4
+			]
+		},
+		"z": {
+			"distribution": "gaussian",
+			"extent": [
+				-2,
+				2
+			]
+		},
+		"x": {
+			"distribution": "gaussian",
+			"extent": [
+				-2,
+				2
+			]
+		},
+		"coordinate_eval_order": "zyx",
+		"places_feature": "fom:eyeblossom_bush_feature"
+	}
+}

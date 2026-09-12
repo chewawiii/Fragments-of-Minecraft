@@ -1,0 +1,58 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"pale_mushroom": {
+			"textures": "textures/blocks/pale_mushroom"
+		},
+		"tall_pale_dead_bush": {
+			"textures": "textures/blocks/tall_pale_dead_bush"
+		},
+		"eyeblossom_bush_wakeup": {
+			"textures": "textures/blocks/eyeblossom_bush_wakeup"
+		},
+		"eyeblossom_bush": {
+			"textures": "textures/blocks/eyeblossom_bush"
+		},
+		"pale_dead_bush": {
+			"textures": "textures/blocks/pale_dead_bush"
+		},
+		"angel_eye_flower": {
+			"textures": "textures/blocks/angel_eye_flower"
+		},
+		"dead_pale_rose": {
+			"textures": "textures/blocks/dead_pale_rose"
+		},
+		"pale_rose": {
+			"textures": "textures/blocks/pale_rose"
+		},
+		"pale_mushroom_stem": {
+			"textures": "textures/blocks/pale_mushroom_stem"
+		},
+		"pale_mushroom_block": {
+			"textures": "textures/blocks/pale_mushroom_block"
+		},
+		"soul_pale_pumpkin": {
+			"textures": "textures/blocks/soul_pale_pumpkin"
+		},
+		"lighted_pale_pumpkin": {
+			"textures": "textures/blocks/lighted_pale_pumpkin"
+		},
+		"carved_pale_pumpkin": {
+			"textures": "textures/blocks/carved_pale_pumpkin"
+		},
+		"pale_pumpkin_top": {
+			"textures": "textures/blocks/pale_pumpkin_top"
+		},
+		"pale_pumpkin": {
+			"textures": "textures/blocks/pale_pumpkin"
+		},
+		"pale_hanging_moss_tip": {
+			"textures": "textures/blocks/pale_hanging_moss_tip"
+		},
+		"pale_hanging_moss_tip_wakeup": {
+			"textures": "textures/blocks/pale_hanging_moss_tip_wakeup"
+		}
+ 	}
+}

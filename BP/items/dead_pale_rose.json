@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fom:dead_pale_rose_item",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.flower"
+			}
+		},
+		"components": {
+			"minecraft:icon": "dead_pale_rose_item",
+			"minecraft:block_placer": {
+				"block": "fom:dead_pale_rose"
+			},
+			"minecraft:compostable": {
+				"composting_chance": 10
+			}
+		}
+	}
+}

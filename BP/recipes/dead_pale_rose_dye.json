@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fom:dead_pale_rose_dye"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "P"
+    ],
+    "key": {
+      "P": {
+        "item": "fom:dead_pale_rose_item",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:gray_dye",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+	"format_version": "1.21.0",
+	"fom:pale_mushroom": {
+		"sound": "grass"
+	},
+	"fom:tall_pale_dead_bush": {
+		"sound": "grass"
+	},
+	"fom:eyeblossom_bush_wakeup": {
+		"sound": "grass"
+	},
+	"fom:eyeblossom_bush": {
+		"sound": "grass"
+	},
+	"fom:pale_dead_bush": {
+		"sound": "grass"
+	},
+	"fom:angel_eye_flower": {
+		"sound": "grass"
+	},
+	"fom:dead_pale_rose": {
+		"sound": "grass"
+	},
+	"fom:pale_rose": {
+		"sound": "grass"
+	},
+	"fom:pale_mushroom_stem": {
+		"sound": "wood"
+	},
+	"fom:pale_mushroom_block": {
+		"sound": "wood"
+	},
+	"fom:soul_pale_pumpkin": {
+		"sound": "wood"
+	},
+	"fom:lighted_pale_pumpkin": {
+		"sound": "wood"
+	},
+	"fom:carved_pale_pumpkin": {
+		"sound": "wood"
+	},
+	"fom:pale_pumpkin": {
+		"sound": "wood"
+	},
+	"fom:pale_hanging_moss_tip": {
+		"sound": "grass"
+	},
+	"fom:pale_hanging_moss_tip_wakeup": {
+		"sound": "grass"
+	}
+}

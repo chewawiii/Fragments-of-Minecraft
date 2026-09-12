@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fom:angel_eye_flower_item",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.flower"
+			}
+		},
+		"components": {
+			"minecraft:icon": "angel_eye_flower_item",
+			"minecraft:block_placer": {
+				"block": "fom:angel_eye_flower"
+			},
+			"minecraft:compostable": {
+				"composting_chance": 10
+			}
+		}
+	}
+}

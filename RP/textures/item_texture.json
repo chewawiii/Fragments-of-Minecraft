@@ -1,0 +1,39 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "pale_mushroom_item": {
+      "textures": "textures/items/pale_mushroom_item"
+    },
+    "tall_pale_dead_bush_item": {
+      "textures": "textures/items/tall_pale_dead_bush_item"
+    },
+    "eyeblossom_bush_wakeup_item": {
+      "textures": "textures/items/eyeblossom_bush_wakeup_item"
+    },
+    "eyeblossom_bush_item": {
+      "textures": "textures/items/eyeblossom_bush_item"
+    },
+    "pale_dead_bush_item": {
+      "textures": "textures/items/pale_dead_bush_item"
+    },
+    "angel_eye_flower_item": {
+      "textures": "textures/items/angel_eye_flower_item"
+    },
+    "dead_pale_rose_item": {
+      "textures": "textures/items/dead_pale_rose_item"
+    },
+    "pale_rose_item": {
+      "textures": "textures/items/pale_rose_item"
+    },
+    "resin_heart": {
+      "textures": "textures/items/resin_heart"
+    },
+    "pale_apple": {
+      "textures": "textures/items/pale_apple"
+    },
+    "pale_hanging_moss_tip_wakeup": {
+      "textures": "textures/items/pale_hanging_moss_tip"
+    }
+  }
+}

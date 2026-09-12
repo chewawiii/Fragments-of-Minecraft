@@ -1,0 +1,73 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fom:tall_pale_dead_bush"
+		},
+		"components": {
+			"minecraft:map_color": "#BDBD57",
+			"minecraft:loot": "loot_tables/blocks/sticks.json",
+			"minecraft:flammable": {
+				"catch_chance_modifier": 10,
+				"destroy_chance_modifier": 32
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": false,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:geometry": "geometry.plant_tall",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "tall_pale_dead_bush",
+					"render_method": "alpha_test_single_sided",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"minecraft:grass_block",
+							"minecraft:moss_block",
+							"minecraft:podzol",
+							"minecraft:mycelium",
+							"minecraft:farmland",
+							"minecraft:dirt",
+							"minecraft:dirt_with_roots",
+							"minecraft:mud",
+							"minecraft:muddy_mangrove_roots",
+							"minecraft:pale_moss_block",
+							"minecraft:moss_block"
+						]
+					}
+				]
+			}
+		}
+	}
+}

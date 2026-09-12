@@ -1,0 +1,16 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "fom:eyeblossom_bush_feature"
+		},
+		"places_block": {
+			"name": "fom:eyeblossom_bush"
+		},
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:air"
+		]
+	}
+}
