@@ -2,7 +2,10 @@
 	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
-			"identifier": "fom:pale_hanging_moss_tip"
+			"identifier": "fom:pale_hanging_moss_tip",
+			"states": {
+				"fom:hanging_moss_state": [0, 1]
+			}
 		},
 		"components": {
 			"minecraft:map_color": "#BDBD57",
@@ -27,7 +30,7 @@
 			"minecraft:geometry": "geometry.plant_tall",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "pale_hanging_moss_tip",
+					"texture": ["pale_hanging_moss_tip", "pale_hanging_moss_tip_wakeup"],
 					"render_method": "alpha_test_single_sided",
 					"ambient_occlusion": false,
 					"face_dimming": false

@@ -50,9 +50,6 @@
 		},
 		"pale_hanging_moss_tip": {
 			"textures": "textures/blocks/pale_hanging_moss_tip"
-		},
-		"pale_hanging_moss_tip_wakeup": {
-			"textures": "textures/blocks/pale_hanging_moss_tip_wakeup"
 		}
  	}
 }
