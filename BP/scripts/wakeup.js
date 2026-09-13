@@ -43,14 +43,15 @@ function updateHangingMossState(block) {
 
     try {
         if (block.typeId === "fom:pale_hanging_moss_tip") {
-            const currentState = block.permutation.getState("fom:hanging_moss_state");
-            const targetState = isNight ? 1 : 0; // 0 = día, 1 = noche
-            
-            if (currentState !== targetState) {
+            if (isNight) {
                 system.run(() => {
-                    block.setPermutation(
-                        block.permutation.withState("fom:hanging_moss_state", targetState)
-                    );
+                    block.setPermutation(BlockPermutation.resolve("fom:pale_hanging_moss_tip_wakeup"));
+                });
+            }
+        } else if (block.typeId === "fom:pale_hanging_moss_tip_wakeup") {
+            if (!isNight) {
+                system.run(() => {
+                    block.setPermutation(BlockPermutation.resolve("fom:pale_hanging_moss_tip"));
                 });
             }
         }

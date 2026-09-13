@@ -22,13 +22,14 @@ world.afterEvents.itemUseOn.subscribe((event) => {
                 const time = world.getTimeOfDay();
                 const isNight = time >= 13000 && time < 23000;
                 
-                // Cambiar el estado de la permutación basado en la hora
-                const targetState = isNight ? 1 : 0; // 0 = día, 1 = noche
-                system.run(() => {
-                    newBlock.setPermutation(
-                        newBlock.permutation.withState("fom:hanging_moss_state", targetState)
-                    );
-                });
+                // Si es de noche, cambiar inmediatamente al bloque nocturno
+                if (isNight) {
+                    system.run(() => {
+                        newBlock.setPermutation(
+                            BlockPermutation.resolve("fom:pale_hanging_moss_tip_wakeup")
+                        );
+                    });
+                }
             }
         } catch (error) {
             // Silenciar errores si el bloque no se coloca correctamente

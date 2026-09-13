@@ -32,7 +32,7 @@
     "pale_apple": {
       "textures": "textures/items/pale_apple"
     },
-    "pale_hanging_moss_tip": {
+    "pale_hanging_moss_tip_wakeup": {
       "textures": "textures/items/pale_hanging_moss_tip"
     }
   }
