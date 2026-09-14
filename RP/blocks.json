@@ -42,9 +42,6 @@
 	"fom:pale_pumpkin": {
 		"sound": "wood"
 	},
-	"fom:pale_hanging_moss_tip": {
-		"sound": "grass"
-	},
 	"fom:pale_hanging_moss_tip_wakeup": {
 		"sound": "grass"
 	}

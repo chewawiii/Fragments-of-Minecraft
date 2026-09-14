@@ -42,16 +42,20 @@ function updateHangingMossState(block) {
     const isNight = time >= 13000 && time < 23000;
 
     try {
-        if (block.typeId === "fom:pale_hanging_moss_tip") {
+        // Detectar bloque vanilla
+        if (block.typeId === "minecraft:pale_hanging_moss") {
             if (isNight) {
+                // De noche: cambiar a versión con ojos
                 system.run(() => {
                     block.setPermutation(BlockPermutation.resolve("fom:pale_hanging_moss_tip_wakeup"));
                 });
             }
-        } else if (block.typeId === "fom:pale_hanging_moss_tip_wakeup") {
+        } 
+        // Si es el bloque personalizado con ojos, de día devolverlo a vanilla
+        else if (block.typeId === "fom:pale_hanging_moss_tip_wakeup") {
             if (!isNight) {
                 system.run(() => {
-                    block.setPermutation(BlockPermutation.resolve("fom:pale_hanging_moss_tip"));
+                    block.setPermutation(BlockPermutation.resolve("minecraft:pale_hanging_moss"));
                 });
             }
         }
